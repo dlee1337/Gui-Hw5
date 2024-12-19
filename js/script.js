@@ -112,7 +112,7 @@ function submitTiles() {
             json.splice(count, 1);
             max--; //popping from stack essentially.
         }
-        var meowzers = '<img id="iFlag'+i.toString()+'"class="ui-draggable" src="../image/Scrabble-Tiles/Scrabble_Tile_' + tile.letter + '.jpg">';
+        var meowzers = '<img id="iFlag'+i.toString()+'"class="ui-draggable" src="../image/Scrabble-Tiles/Scrabble_Tile_" + tile.letter + '.jpg">';
         $('#rack').append(meowzers);
 
         var flagID = '#iFlag' + i.toString();
